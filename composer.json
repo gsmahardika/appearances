@@ -1,0 +1,27 @@
+{
+    "name": "wiratama/appearances",
+    "description": "Laravel 6 theming package, based on floatingpoint/stylist",
+    "authors": [
+        {
+            "name": "Arya Wiratama",
+            "email": "aryawiratama99@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "laravelcollective/html": "~6.0",
+        "illuminate/support": "~6.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "AWiratama\\Appearances\\": "src/Appearances"
+        }
+    },
+    "minimum-stability": "dev",
+	"config": {
+		"preferred-install": "dist"
+	}
+}
