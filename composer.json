@@ -17,11 +17,13 @@
     },
     "autoload": {
         "psr-4": {
-            "AWiratama\\Appearances\\": "src/Appearances"
+            "Wiratama\\Appearances\\": "src/Appearances"
         }
     },
-    "minimum-stability": "dev",
-	"config": {
-		"preferred-install": "dist"
-	}
+    "extra": {
+        "laravel": {
+            "providers": "Wiratama\\Appearances\\AppearancesServiceProvider"
+        }
+    },
+    "minimum-stability": "dev"
 }

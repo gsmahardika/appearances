@@ -84,8 +84,8 @@ class AppearancesServiceProvider extends AggregateServiceProvider
     protected function registerConfiguration()
     {
         $this->publishes([
-            __DIR__ . '/../config/config.php' => config_path('appearances.php')
-        ]);
+            __DIR__ . '/../../config/config.php' => config_path('appearances.php')
+        ], 'appearances');
     }
 
     public function provides()
