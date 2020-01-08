@@ -2,8 +2,7 @@
 
 return [
     'themes' => [
-        'paths' => [
-        ],
+        'paths' => null,
         'activate' => null
     ]
 ];
