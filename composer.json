@@ -1,5 +1,6 @@
 {
     "name": "wiratama/appearances",
+    "type": "project",
     "description": "Laravel 6 theming package, based on floatingpoint/stylist",
     "authors": [
         {
@@ -7,6 +8,11 @@
             "email": "aryawiratama99@gmail.com"
         }
     ],
+    "keywords": [
+        "theme",
+        "laravel"
+    ],
+    "license": "MIT",
     "require": {
         "php": ">=7.2.0",
         "laravelcollective/html": "~6.0",
