@@ -1,5 +1,5 @@
 <?php
-namespace Wiratama\Appearances\Console;
+namespace Wiratama\Appearances\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
