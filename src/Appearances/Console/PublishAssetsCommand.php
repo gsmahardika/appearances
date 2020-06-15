@@ -26,7 +26,7 @@ class PublishAssetsCommand extends Command
     {
         $this->laravel['events']->dispatch('stylist.publishing');
 
-        $themes = Stylist::themes();
+        $themes = Appearances::themes();
 
         foreach ($themes as $theme) {
             $path = $theme->getPath();
