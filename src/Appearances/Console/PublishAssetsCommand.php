@@ -24,7 +24,7 @@ class PublishAssetsCommand extends Command
 
     protected function setupThemes()
     {
-        $this->laravel['events']->dispatch('stylist.publishing');
+        $this->laravel['events']->dispatch('appearances.publishing');
 
         $themes = Appearances::themes();
 
@@ -32,18 +32,18 @@ class PublishAssetsCommand extends Command
             $path = $theme->getPath();
 
             if ($this->laravel['files']->exists($path.'assets/')) {
-                $this->laravel['stylist']->registerPath($path);
+                $this->laravel['appearances']->registerPath($path);
             }
         }
     }
 
     protected function publishAssets()
     {
-        $themes = $this->laravel['stylist']->themes();
+        $themes = $this->laravel['appearances']->themes();
         $requestedTheme = $this->argument('theme');
 
         if ($requestedTheme) {
-            $theme = $this->laravel['stylist']->get($requestedTheme);
+            $theme = $this->laravel['appearances']->get($requestedTheme);
 
             return $this->publishSingle($theme);
         }
