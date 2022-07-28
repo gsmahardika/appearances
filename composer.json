@@ -1,11 +1,11 @@
 {
-    "name": "wiratama/appearances",
+    "name": "gsmahardika/appearances",
     "type": "project",
     "description": "Laravel 8 theming package, based on floatingpoint/stylist",
     "authors": [
         {
-            "name": "Arya Wiratama",
-            "email": "aryawiratama99@gmail.com"
+            "name": "GS Mahardika",
+            "email": "gs.mahardika@gmail.com"
         }
     ],
     "keywords": [
