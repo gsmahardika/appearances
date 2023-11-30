@@ -1,7 +1,7 @@
 {
     "name": "gsmahardika/appearances",
     "type": "project",
-    "description": "Laravel 8 theming package, based on floatingpoint/stylist",
+    "description": "Laravel 10 theming package, based on floatingpoint/stylist",
     "authors": [
         {
             "name": "GS Mahardika",
@@ -14,9 +14,9 @@
     ],
     "license": "MIT",
     "require": {
-        "php": ">=8.0",
+        "php": ">=8.2",
         "laravelcollective/html": "~6.0",
-        "laravel/framework": "~8.0"
+        "laravel/framework": "~10.0"
     },
     "require-dev": {
         "mockery/mockery": "dev-master@dev"
